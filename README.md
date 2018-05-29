@@ -1,6 +1,63 @@
 # 管理后台模板
 
 > 这是一个基于Vue和Element UI的管理后台，目前兼容Element UI最新版本2.3.9，后期还将加入一些其他组件库中的组件，比如iView中有的但Element UI不具备的。
+## 项目中的命名规则
+### 项目名
+全部采用小写方式， 以下划线分隔。
+例：my_project_name
+
+### 目录命名
+参照项目命名规则；
+有复数结构时，要采用复数命名法。
+例：scripts, styles, images, data_models
+
+### JS文件命名
+参照项目命名规则。
+例：account_model.js
+
+### CSS, SCSS文件命名
+参照项目命名规则。
+例：retina_sprites.scss
+
+### HTML文件命名
+参照项目命名规则。
+例：error_report.html
+
+### css,sass,less的类名和Id命名
+类名使用小写字母，以中划线分隔；
+eg: .my-first-name
+
+### id采用驼峰式命名; 
+eg: #myFirstName
+
+### sass,less中的变量、函数、混合采用驼峰式命名; 
+eg: $mainWidth, #mainHeight
+
+### JS中变量命名
+标准变量采用驼峰式命名（除了对象的属性外，主要是考虑到cgi返回的数据）
+eg: var myFirstName
+
+### 'ID'在变量名中全大写
+eg: var goodID;
+
+### 'URL'在变量名中全大写
+eg: var reportURL;
+
+### 'Android'在变量名中大写第一个字母
+eg:var AndroidVersion;
+
+### 'iOS'在变量名中小写第一个，大写后两个字母
+eg:  var iOSVersion;
+
+### 常量全大写，用下划线连接
+eg: var MAX_INDEX = 1;
+
+### 构造函数，大写第一个字母
+function Person(name) {
+    this.name = name;
+}
+
+
 ## 项目目录结构
 ```
 ├── build                      // 构建相关  
@@ -75,12 +132,12 @@ npm run build
 ```
 resolve: {
   alias: {
-    '~': resolve(__dirname, 'src')
+    '@': resolve(__dirname, 'src')
   }
 }
 
 //使用
-import stickTop from '~/components/stickTop'
+import stickTop from '@/components/stickTop'
 ```
 ### ESLint
 
