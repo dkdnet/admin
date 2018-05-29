@@ -31,11 +31,11 @@
   </aside>
 </template>
 <script>
-  import subMenu from '../SubMenu'
+  import SubMenu from '../sub_menu'
   import { mapGetters, mapActions, mapMutations } from 'vuex'
   // import types from '../store/mutation-types'
   // import { store } from '@/store'
-  import ElMenu from '@/components/Menu'
+  import ElMenu from '@/components/menu'
 
   export default {
     props: {
@@ -49,7 +49,7 @@
       }
     },
     components: {
-      subMenu,
+      SubMenu,
       ElMenu
     },
     computed: {

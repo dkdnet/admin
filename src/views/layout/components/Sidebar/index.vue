@@ -14,7 +14,7 @@
 </template>
 
 <script>
-  import SideMenu from '@/components/SideMenu'
+  import SideMenu from '@/components/side_menu'
 
   export default {
     components: { SideMenu },

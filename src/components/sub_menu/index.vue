@@ -10,7 +10,7 @@
   </el-menu-item>
 </template>
 <script>
-  import SubMenu from '@/components/SubMenu'
+  import SubMenu from '@/components/sub_menu'
 
   export default {
     name: 'SubMenu',

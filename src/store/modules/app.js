@@ -1,8 +1,8 @@
 import Cookies from 'js-cookie'
 // import { getSessionKey } from '@/common/utils'
-import { getMenuList } from '@/api/sideMenu'
+import { getMenuList } from '@/api/side_menu'
 import { getCurrentMenu, getSessionKey } from '@/utils/tools'
-import testData from '@/api/testData'
+import testData from '@/api/test_data'
 
 const app = {
   state: {

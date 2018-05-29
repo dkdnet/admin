@@ -13,7 +13,7 @@
   import { Navbar, Sidebar, AppMain } from './components'
   import ResizeMixin from './mixin/ResizeHandler'
 
-  import SideMenu from '@/components/SideMenu'
+  import SideMenu from '@/components/side_menu'
   import 'font-awesome/css/font-awesome.css'
 
   export default {

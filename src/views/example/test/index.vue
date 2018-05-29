@@ -37,7 +37,7 @@
 </template>
 
 <script>
-  import DicRow from '@/components/Row/'
+  import DicRow from '@/components/row/'
   export default {
     name: 'index',
     components: {

@@ -30,7 +30,7 @@
 
 <script>
   import { mapGetters, mapMutations } from 'vuex'
-  import Hamburger from '@/components/Hamburger'
+  import Hamburger from '@/components/hamburger'
 
   export default {
     data() {
